@@ -1,0 +1,71 @@
+.menu{
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-template-areas: "a a b b "
+                         "c c d d " 
+                         "e e f f ";
+    grid-template-rows: repeat(3, 170px);
+    gap: 270px;
+    justify-items: center;
+}
+section:nth-of-type(1){
+    grid-area:a ;
+    background-color: #8F7F6F;
+    width: 2fr;
+    height: 420px;
+    border-radius: 20px;
+}
+section:nth-of-type(2){
+    grid-area: b;
+    background-color: #8F7F6F;
+    width: 2fr;
+    height: 420px;
+    border-radius: 20px;
+}
+section:nth-of-type(3){
+    grid-area: c;
+    background-color: #8F7F6F;
+    width: 2fr;
+    height: 420px;
+    border-radius: 20px;
+}
+section:nth-of-type(4){
+    grid-area: d;
+    background-color: #8F7F6F;
+    width: 2fr;
+    height: 420px;
+    border-radius: 20px;
+}
+section:nth-of-type(5){
+    grid-area: e;
+    background-color: #8F7F6F;width: 2fr;
+    height: 420px;
+    border-radius: 20px;
+}
+section:nth-of-type(6){
+    grid-area: f;
+    background-color: #8F7F6F; 
+    width: 2fr;
+    height: 420px;
+    border-radius: 20px;
+}
+.chrisblackhair{
+    border: 8px double rgba(0, 0, 0, 0.793);
+    outline: none;
+    border-radius: 50%;
+    margin-top: 12px;
+    margin-left: 40px;
+    height: 200px;
+    width: 200px;
+}
+.pen{
+    border-radius: 7px;
+    margin-left: 50px;
+    background-color: grey;
+    outline: none;
+}
+.pen:hover{
+    background-color: darkgrey;
+    color: white;
+}
