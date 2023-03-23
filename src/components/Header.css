@@ -1,11 +1,11 @@
 .menu{
-    margin-top: 90px;
+    margin-top: 190px;
     display: grid;
     grid-template-columns: repeat(4, 2fr);
     grid-template-areas: "a a b b "
                          "c c d d " 
                          "e e f f ";
-    grid-template-rows: repeat(3, 170px);
+    grid-template-rows: repeat(3, 190px);
     gap: 270px;
     justify-items: center;
 }
